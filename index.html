@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+  </head>
+  <body>
+    <h1>Jogo da Velha</h1>
+    <div class="instructions">Escolha qual símbolo deseja ser</div>
+    <div class="container">
+      <form class="symbol-select">
+        <div class="wrapper">
+          <label for="x-symbol" id="x-select" class="symbols">
+            <div class="select hover">
+              <input type="radio" name="symbol" id="x-symbol" value="x-symbol">
+              <div class="cross">X</div>
+            </div>
+            <div class="tag"></div>
+          </label>
+          <div class="extend"></div>
+          <label for="o-symbol" id="o-select" class="symbols">
+            <div class="select hover">
+              <input type="radio" name="symbol" id="o-symbol" value="o-symbol">
+              <div class="circle">O</div>
+            </div>
+            <div class="tag"></div>
+          </label>
+        </div>
+        <button class="btn">Jogar</button>
+      </form>
+      <div class="game">
+        <div class="field tl"></div>
+        <div class="field tm"></div>
+        <div class="field tr"></div>
+
+        <div class="field ml"></div>
+        <div class="field mm"></div>
+        <div class="field mr"></div>
+
+        <div class="field bl"></div>
+        <div class="field bm"></div>
+        <div class="field br"></div>
+      </div>
+    </div>
+    <div class="small-wrapper">
+      <div class="win-tracker">
+        <img src="assets/images/crown.png" alt="crown">
+        <div class="win-count">---</div>
+      </div>
+      <div class="btn reset">Resetar</div>
+      <div class="win-tracker">
+        <img src="assets/images/crown.png" alt="crown">
+        <div class="win-count">---</div>
+      </div>
+    </div>
+    <footer>
+      <p>Criado por Azuryanz <br> seguindo o <a href="https://alunos.b7web.com.br/curso/javascript/d7js-projeto-4-jogo-da-velha" target="blank">modelo da B7Web</a></p>
+    </footer>
+    <script src="assets/scripts/script.js"></script>
+  </body>
+</html>
