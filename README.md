@@ -52,7 +52,7 @@ Caso o *jogador 1* atinja a condição de vitória, o esmo acontecerá, com os s
 
 Em ambos estes casos, o respectivo contador de vitórias será incrementado.
 
-![Draw](assets/images/draw_win.png)
+![Draw](assets/images/draw.png)
 
 Caso todas as posição do tabuleiro sejam preenchidas, sem que um jogador tenha ganho, o resultado será um empate: nenhum símbolo é colorido e nenhum jogador pontua.
 
